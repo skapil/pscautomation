@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+#This file will return the current location, image location and log file location.
+
+#Importing the libararies
+import os
+
+def getCurrentLocation():
+    return os.getcwd() 
+
+def getImageLocation():
+    print os.path.abspath(os.path.join((os.getcwd()),'..','imgs'))
+
+if __name__ == "__main__":
+    print getCurrentLocation()
+    getImageLocation()

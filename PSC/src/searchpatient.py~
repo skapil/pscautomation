@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+#Loading libraries here
+from sikuli import *
+import yaml
+import locations
+
+with open(locations.getDataFileLocation("searchpatient.yaml"),"r") as fread:
+    docs = yaml.load_all(fread)
+    for doc in docs:
+        print doc["first_name"]    
+

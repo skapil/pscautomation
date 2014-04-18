@@ -1,0 +1,3 @@
+FirstName,MiddleName,LastName,DateOfBirth,Gender,ZipCode,MobilePhone,HomePhone,Email,ContactMethod,Communication
+Face,True,Book,01/01/1990,Female,94089,8889997777,1112223333,facebook11@gmail.com,Phone,English
+Angola,,Luanda,01/01/1980,Male,94087,5555555555,,,Phone,English
