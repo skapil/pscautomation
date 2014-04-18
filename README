@@ -1,0 +1,9 @@
+This project is internal project and not for public use.
+
+This project to test the PSC features, here are the list of feature it can support right now:
+1. Search for all the patient
+2. Add New Patient.
+3. Add Insurance.
+3. Add additional information of the patient
+
+Technology: This project use Sikuli + Python for automation.
